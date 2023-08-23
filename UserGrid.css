@@ -1,0 +1,7 @@
+/* UserGrid Styles */
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three columns */
+  gap: 1rem;
+  padding: 7rem;
+}

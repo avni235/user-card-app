@@ -1,0 +1,31 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1b1b1b;
+  color: white;
+  z-index: 1000; 
+}
+
+.brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 16px 30px;
+  background: #8739F9;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: bold;
+}

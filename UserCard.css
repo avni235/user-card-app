@@ -1,0 +1,30 @@
+/* UserCard Styles */
+.user-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1b1b;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  color: black;
+  box-shadow: -8px 8px 5px rgb(124, 124, 124);
+  align-items: center;
+  height: 250px;
+  width: 300px;
+}
+
+.avatar {
+  border-radius: 150px;
+  margin-bottom: 20px;
+}
+
+.user-name {
+  color: #8739F9;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.email {
+  color: #C651CD;
+  font-size: 1.2REM;
+}
